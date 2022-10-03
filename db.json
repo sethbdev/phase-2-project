@@ -1,16 +1,18 @@
 {
-  "posts": [
+  "costumes": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "costume": "Hocus Pocus: Sarah Sanderson",
+      "image": "./assets/costumes/SarahSanderson.jpg",
+      "price": 129.99
     }
   ],
-  "comments": [
+  "stories": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "some comment",
+      "author": 1,
+      "content": "some comment"
     }
   ],
   "profile": {
