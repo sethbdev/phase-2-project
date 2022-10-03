@@ -1,16 +1,18 @@
 {
-  "posts": [
+  "costumes": [
     {
       "id": 1,
       "title": "json-server",
-      "author": "typicode"
+      "image": "typicode",
+      "price": 129.99
     }
   ],
-  "comments": [
+  "spookystories": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "some comment",
+      "author": "some author",
+      "content": "some content"
     }
   ],
   "profile": {
