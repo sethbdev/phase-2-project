@@ -1,10 +1,25 @@
-import React from 'react'
-import Costumes from './Costumes';
+import React, { useState, useEffect } from "react";
+import Costumes from "./Costumes";
 
 const CostumesContainer = () => {
-  return (
-    <div>CostumeContainer</div>
-  )
-}
+  const [costumes, setCostumes] = useState([]);
 
-export default CostumesContainer
+  useEffect(() => {
+    fetch("http://localhost:3000/costumes")
+      .then((res) => res.json())
+      .then((data) => setCostumes(data));
+  }, []);
+
+  const costumeCards = costumes.map((costume) => {
+    return <Costumes key={costume.id} costume={costume} />;
+  });
+
+  return (
+    <div className="costume-container">
+      <h1>Costumes</h1>
+      {costumeCards}
+    </div>
+  );
+};
+
+export default CostumesContainer;

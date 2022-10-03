@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const StoriesForm = () => {
   return (
@@ -6,4 +6,4 @@ const StoriesForm = () => {
   )
 }
 
-export default StoriesForm
+export default StoriesForm;
