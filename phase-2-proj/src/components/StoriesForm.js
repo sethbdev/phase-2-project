@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const StoriesForm = () => {
-  return (
-    <div>StoriesForm</div>
-  )
-}
+  return <div>StoriesForm</div>;
+};
 
 export default StoriesForm;

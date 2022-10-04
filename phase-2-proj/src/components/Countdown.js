@@ -1,9 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const Countdown = () => {
-  return (
-    <div>Home/Countdown</div>
-  )
-}
+  return <div>Home/Countdown</div>;
+};
 
 export default Countdown;
