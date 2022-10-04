@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Countdown from "./Countdown";
 import CostumesContainer from "./CostumesContainer";
 import SpookyStoriesContainer from "./SpookyStoriesContainer";
+import StoriesForm from "./StoriesForm";
 
 function App() {
   return (
@@ -14,11 +15,14 @@ function App() {
         <Route path="/countdown">
           <Countdown />
         </Route>
-        <Route path="/costumes">
+        <Route exact path="/costumes">
           <CostumesContainer />
         </Route>
-        <Route path="/spookystories">
+        <Route exact path="/spookystories">
           <SpookyStoriesContainer />
+        </Route>
+        <Route exact path="/spookystories/new">
+          <StoriesForm />
         </Route>
       </Switch>
     </div>
