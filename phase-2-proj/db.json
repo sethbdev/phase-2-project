@@ -3,61 +3,61 @@
     {
       "id": 1,
       "title": "Sarah Sanderson",
-      "image": "./assets/costumes/SarahSanderson.jpg",
+      "image": "https://spirit.scene7.com/is/image/Spirit/07523491-a?$Detail$",
       "price": 129.99
     },
     {
       "id": 2,
       "title": "Gomez Addams",
-      "image": "./assets/costumes/GomezAddams.jpg",
+      "image": "https://www.skycostume.com/media/catalog/product/cache/1/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/g/o/gomez_addam_the_addams_family_outfits_halloween_cosplay_costume-1.jpg",
       "price": 74.99
     },
     {
       "id": 3,
       "title": "Morticia Addams",
-      "image": "./assets/costumes/MorticiaAddams.jpg",
+      "image": "https://litb-cgis.rightinthebox.com/images/640x640/202206/bps/product/inc/iheegg1655880697402.jpg",
       "price": 69.99
     },
     {
       "id": 4,
       "title": "Oogie Boogie",
-      "image": "./assets/costumes/OogieBoogie.jpg",
+      "image": "https://images.halloweencostumes.com/products/42672/1-2/adult-oogie-boogie-prestige-costume1.jpg",
       "price": 69.71
     },
     {
       "id": 5,
       "title": "Sally",
-      "image": "./assets/costumes/Sally.jpg",
+      "image": "https://i0.wp.com/disneydiary.com//wp-content/uploads/2013/10/i-zcdWRP9-M.jpg?resize=185%2C400",
       "price": 39.48
     },
     {
       "id": 6,
       "title": "Frank the Bunny",
-      "image": "./assets/costumes/FrankTheBunny.jpg",
+      "image": "https://images.halloweencostumes.com/products/45164/1-2/frank-the-bunny-costume-donnie-darko-.jpg",
       "price": 79.43
     },
     {
       "id": 7,
       "title": "WandaVision",
-      "image": "./assets/costumes/WandaVision.jpg",
+      "image": "https://www.jacketsthreads.com/image/cache/webp/catalog/wandavision/Wandavision2-550x550h.webp",
       "price": 120.87
     },
     {
       "id": 8,
       "title": "Tyler Durden",
-      "image": "./assets/costumes/TylerDurden.jpg",
+      "image": "https://famejackets.com/wp-content/uploads/2019/06/Brad-Pitt-Fight-Club-Red-Genuine-Leather-Jacket.jpg",
       "price": 499.69
     },
     {
       "id": 9,
       "title": "Harley Quinn",
-      "image": "./assets/costumes/HarleyQuinn.jpg",
+      "image": "https://i.etsystatic.com/23339379/r/il/2b4984/2680886437/il_794xN.2680886437_9hyi.jpg",
       "price": 49.99
     },
     {
       "id": 10,
       "title": "Grinch",
-      "image": "./assets/costumes/Grinch.jpg",
+      "image": "https://i.ebayimg.com/images/g/H9AAAOSwYSFdw7Zc/s-l500.jpg",
       "price": 59.99
     }
   ],
@@ -68,7 +68,8 @@
       "author": "Humanperson1357",
       "link": "https://www.reddit.com/r/AskReddit/comments/onqmzm/comment/h5ufnrp/?utm_source=share&utm_medium=web2x&context=3",
       "image": "./assets/stories/1.jpg",
-      "content": "placeholder"
+      "content": ["I was camping with my husband and his family at a small, remote lake in New Mexico. There were about 10 people in our group and another group of six people in the next", "campsite. It was nighttime and both groups were doing typical activities: making smores, having a few drinks and telling stories, when we all heard what sounded like a little girl", "yelling out for help. Neither group had children with them, but we were all positive we were hearing a little girl and decided to search the area we heard the noises from together.",
+      "There was a field behind our campsites, and we all saw a very tall, pure white figure standing maybe 100ft away from us in the field, making the noises. We all agreed this thing looked maybe 6 feet tall, skinny, and white as can be. We made our way closer to investigate, but whatever it was that we saw started backing off as we got closer, and it disappeared into the trees. All night we continued to hear a little girl calling for help as we tried to sleep"]
     },
     {
       "id": 2,
@@ -104,24 +105,24 @@
     },
     {
       "id": 6,
-      "title": "some comment",
-      "author": "some author",
-      "link": "some link",
+      "title": "Hell Hath No Fury",
+      "author": "spookyoeve",
+      "link": "https://www.reddit.com/r/AskReddit/comments/j73inz/comment/g84frot/?utm_source=share&utm_medium=web2x&context=3",
       "image": "./assets/stories/6.jpg",
-      "content": "some content"
+      "content": "placeholder6"
     },
     {
       "id": 7,
-      "title": "some comment",
-      "author": "some author",
-      "link": "some link",
+      "title": "Death Came for Him",
+      "author": "uknown",
+      "link": "https://www.reddit.com/r/AskReddit/comments/4pc3xy/comment/d4k08o9/?utm_source=share&utm_medium=web2x&context=3",
       "image": "./assets/stories/7.jpg",
-      "content": "some content"
+      "content": "placeholder7"
     },
     {
       "id": 8,
-      "title": "some comment",
-      "author": "some author",
+      "title": "My Mother Attracted Evil",
+      "author": "deleted",
       "link": "some link",
       "image": "./assets/stories/8.jpg",
       "content": "some content"
