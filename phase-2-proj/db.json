@@ -64,8 +64,83 @@
   "spookystories": [
     {
       "id": 1,
+      "title": "It Was Not a Girl",
+      "author": "u/Humanperson1357",
+      "link": "https://www.reddit.com/r/AskReddit/comments/onqmzm/comment/h5ufnrp/?utm_source=share&utm_medium=web2x&context=3",
+      "image": "./assets/stories/1.jpg",
+      "content": "I was camping with my husband and his family at a small, remote lake in New Mexico. There were about 10 people in our group and another group of six people in the next campsite. It was nighttime and both groups were doing typical activities: making smores, having a few drinks and telling stories, when we all heard what sounded like a little girl yelling out for help. Neither group had children with them, but we were all positive we were hearing a little girl and decided to search the area we heard the noises from together.
+      There was a field behind our campsites, and we all saw a very tall, pure white figure standing maybe 100ft away from us in the field, making the noises. We all agreed this thing looked maybe 6 feet tall, skinny, and white as can be. We made our way closer to investigate, but whatever it was that we saw started backing off as we got closer, and it disappeared into the trees. All night we continued to hear a little girl calling for help as we tried to sleep."
+    },
+    {
+      "id": 2,
       "title": "some comment",
       "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 3,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 4,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 5,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 6,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 7,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 8,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 9,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 10,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
       "content": "some content"
     }
   ],
