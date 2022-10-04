@@ -5,8 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <NavLink to="/countdown">Countdown</NavLink>
-      <NavLink to="/costumes">Costumes</NavLink>
-      <NavLink to="/spookystories">Spooky Stories</NavLink>
+      <NavLink exact to="/costumes">Costumes</NavLink>
+      <NavLink exact to="/spookystories">Spooky Stories</NavLink>
+      <NavLink exact to="/spookystories/new">Add A Story</NavLink>
     </div>
   );
 };
