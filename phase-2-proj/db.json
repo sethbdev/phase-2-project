@@ -66,6 +66,80 @@
       "id": 1,
       "title": "some comment",
       "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 2,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 3,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 4,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 5,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 6,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 7,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 8,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 9,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
+      "content": "some content"
+    },
+    {
+      "id": 10,
+      "title": "some comment",
+      "author": "some author",
+      "link": "some link",
+      "image": "./assets/stories/1.jpg",
       "content": "some content"
     }
   ],
