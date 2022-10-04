@@ -4,8 +4,8 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Countdown from "./Countdown";
 import CostumesContainer from "./CostumesContainer";
-import SpookyStoriesContainer from "./SpookyStoriesContainer";
 import StoriesForm from "./StoriesForm";
+import StoriesPage from "./StoriesPage";
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
         <Route exact path="/costumes">
           <CostumesContainer />
         </Route>
-        <Route exact path="/spookystories">
-          <SpookyStoriesContainer />
+        <Route exact path="/stories">
+          <StoriesPage />
         </Route>
-        <Route exact path="/spookystories/new">
+        <Route exact path="/stories/new">
           <StoriesForm />
         </Route>
       </Switch>
