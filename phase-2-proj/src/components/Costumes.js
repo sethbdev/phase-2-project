@@ -5,11 +5,11 @@ const Costumes = ({ costume }) => {
 
   return (
     <div className="costume-card">
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <div className="costImage">
         <img className="costume-image" src={image} alt={title} />
       </div>
-      <h3>${price}</h3>
+      <h4>${price}</h4>
     </div>
   );
 };
