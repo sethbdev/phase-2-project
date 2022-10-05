@@ -61,7 +61,7 @@
       "price": 59.99
     }
   ],
-  "spookystories": [
+  "stories": [
     {
       "id": 1,
       "title": "It Was Not a Girl",
@@ -254,9 +254,12 @@
       ]
     },
     {
-      "title": "Test Title",
-      "author": "Test Author",
-      "content": "I was camping with my husband and his family at a small, remote lake in New Mexico. There were about 10 people in our group and another group of six people in the nextcampsite. It was nighttime and both groups were doing typical activities: making smores, having a few drinks and telling stories, when we all heard what sounded like a little girlyelling out for help. Neither group had children with them, but we were all positive we were hearing a little girl and decided to search the area we heard the noises from together.There was a field behind our campsites, and we all saw a very tall, pure white figure standing maybe 100ft away from us in the field, making the noises. We all agreed this thing looked maybe 6 feet tall, skinny, and white as can be. We made our way closer to investigate, but whatever it was that we saw started backing off as we got closer, and it disappeared into the trees. All night we continued to hear a little girl calling for help as we tried to sleep.",
+      "title": "test",
+      "author": "test",
+      "image": "https://m.media-amazon.com/images/I/717gOL8OVVL._AC_SX425_.jpg",
+      "content": [
+        "test test test"
+      ],
       "id": 11
     }
   ]
