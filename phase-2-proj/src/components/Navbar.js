@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <NavLink to="/countdown">Countdown</NavLink>
-      <NavLink exact to="/costumes">Costumes</NavLink>
-      <NavLink exact to="/spookystories">Spooky Stories</NavLink>
-      <NavLink exact to="/spookystories/new">Add A Story</NavLink>
+    <div className="navigation">
+      <NavLink className="navButton" to="/countdown">Countdown</NavLink>
+      <NavLink className="navButton" exact to="/costumes">Costumes</NavLink>
+      <NavLink className="navButton" exact to="/spookystories">Spooky Stories</NavLink>
+      <NavLink className="navButton" exact to="/spookystories/new">Add A Story</NavLink>
     </div>
   );
 };
