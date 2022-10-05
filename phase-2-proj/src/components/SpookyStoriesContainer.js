@@ -1,25 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import SpookyStories from "./SpookyStories";
 
-const SpookyStoriesContainer = () => {
-
-  const [stories, setStories] = useState([]);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/stories")
-      .then((res) => res.json())
-      .then((data) => setStories(data));
-  }, []);
-
+const SpookyStoriesContainer = ({ stories, handleDelete }) => {
+  
   const storyCards = stories.map((story) => {
-    return <SpookyStories 
-      key={story.id}
-      id={story.id}
-      title={story.title}
-      author={story.author}
-      link={story.link}
-      image={story.image}
-      content={story.content} />;
+    return (
+      <SpookyStories {...story} key={story.id} handleDelete={handleDelete} />
+    );
   });
 
   return (
