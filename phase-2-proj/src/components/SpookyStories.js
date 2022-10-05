@@ -1,7 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const SpookyStories = ({ id, title, author, link, image, content }) => {
+const SpookyStories = ({ id, title, author, image, handleDelete }) => {
+  
+  function handleBackendDelete() {
+    fetch(`http://localhost:3000/stories/${id}`, {
+      method: "DELETE",
+    });
+    handleDelete(id);
+  }
+
   return (
     <div className="spooky-story-card">
       <h2>{title}</h2>
@@ -9,6 +17,10 @@ const SpookyStories = ({ id, title, author, link, image, content }) => {
       <Link to={`/stories/${id}`}>
         <img classname="spooky-image" src={image} alt={`${title} by ${author}`} />
       </Link>
+      <p></p>
+      <button className="delete-button" onClick={handleBackendDelete}>
+        Delete
+      </button>
       <p></p>
     </div>
   );
