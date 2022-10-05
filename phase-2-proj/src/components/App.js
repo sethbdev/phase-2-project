@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Navbar";
 import Countdown from "./Countdown";
-import CostumesContainer from "./CostumesContainer";
+import CostumesPage from "./CostumesPage";
 import StoriesPage from "./StoriesPage";
 import StoriesForm from "./StoriesForm";
 import StoryDetail from "./StoryDetail";
@@ -18,7 +18,7 @@ function App() {
           <Countdown />
         </Route>
         <Route exact path="/costumes">
-          <CostumesContainer />
+          <CostumesPage />
         </Route>
         <Route exact path="/stories">
           <StoriesPage />
