@@ -5,7 +5,7 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Countdown from "./Countdown";
 import CostumesContainer from "./CostumesContainer";
-import SpookyStoriesContainer from "./SpookyStoriesContainer";
+import StoriesPage from "./StoriesPage";
 import StoriesForm from "./StoriesForm";
 import StoryDetail from "./StoryDetail";
 
@@ -21,7 +21,7 @@ function App() {
           <CostumesContainer />
         </Route>
         <Route exact path="/stories">
-          <SpookyStoriesContainer />
+          <StoriesPage />
         </Route>
         <Route exact path="/stories/:id">
           <StoryDetail />
