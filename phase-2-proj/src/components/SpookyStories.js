@@ -5,11 +5,13 @@ const SpookyStories = ({ id, title, author, link, image, content }) => {
 
   return (
     <div className="spooky-story-card">
+      <div className="spooky-story-header">
+        <h2>{title}</h2>
+      </div>
       
-      <h2>{title}</h2>
       <h3>By {author}</h3>
       <Link to={`/stories/${id}`}>
-        <img src={image} alt={`${title} by ${author}`} />
+        <img classname="spooky-image" src={image} alt={`${title} by ${author}`} />
       </Link>
       <p></p>
     </div>
