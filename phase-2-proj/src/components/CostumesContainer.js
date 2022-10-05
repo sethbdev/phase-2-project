@@ -1,14 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Costumes from "./Costumes";
 
-const CostumesContainer = () => {
-  const [costumes, setCostumes] = useState([]);
+const CostumesContainer = ({ costumes }) => {
 
-  useEffect(() => {
-    fetch("http://localhost:3000/costumes")
-      .then((res) => res.json())
-      .then((data) => setCostumes(data));
-  }, []);
 
   const costumeCards = costumes.map((costume) => {
     return <Costumes key={costume.id} costume={costume} />;
@@ -16,7 +10,6 @@ const CostumesContainer = () => {
 
   return (
     <div className="costume-container">
-      <h1>Costumes</h1>
       {costumeCards}
     </div>
   );
