@@ -1,7 +1,7 @@
 import React from "react";
 
 const Costumes = ({ costume }) => {
-  const { id, title, image, price } = costume;
+  const { title, image, price } = costume;
 
   return (
     <div className="costume-card">
