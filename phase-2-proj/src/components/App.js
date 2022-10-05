@@ -6,6 +6,7 @@ import Countdown from "./Countdown";
 import CostumesContainer from "./CostumesContainer";
 import SpookyStoriesContainer from "./SpookyStoriesContainer";
 import StoriesForm from "./StoriesForm";
+import StoryDetail from "./StoryDetail";
 
 function App() {
   return (
@@ -15,13 +16,16 @@ function App() {
         <Route path="/countdown">
           <Countdown />
         </Route>
-        <Route exact path="/costumes">
+        <Route path="/costumes">
           <CostumesContainer />
         </Route>
-        <Route exact path="/spookystories">
+        <Route exact path="/stories">
           <SpookyStoriesContainer />
         </Route>
-        <Route exact path="/spookystories/new">
+        <Route exact path="/stories/:id">
+          <StoryDetail />
+        </Route>
+        <Route exact path="/newstory">
           <StoriesForm />
         </Route>
       </Switch>
