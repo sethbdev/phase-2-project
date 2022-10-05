@@ -3,10 +3,10 @@ import React from "react";
 const StorySearch = ({ setStorySearch }) => {
   return (
     <div className="searchbar">
-      <label type="search">Search Stories: </label>
+      <label className="search-label" type="search">Search Stories: </label>
       <input
         type="text"
-        id="search"
+        className="search-input"
         placeholder="Search..."
         onChange={(e) => setStorySearch(e.target.value)}
       />
