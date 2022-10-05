@@ -9,7 +9,7 @@ const StoryDetail = () => {
     fetch(`http://localhost:3000/stories/${id}`)
       .then((res) => res.json())
       .then((data) => setStory(data));
-  }, []);
+  }, [id]);
 
   if (!story) return <h2>BOO!</h2>;
 
