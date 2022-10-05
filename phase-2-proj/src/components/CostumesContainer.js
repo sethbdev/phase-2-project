@@ -15,9 +15,11 @@ const CostumesContainer = () => {
   });
 
   return (
-    <div className="costume-container">
-      <h1>Costumes</h1>
-      {costumeCards}
+    <div>
+      <h1 className="pageTitle">Costumes</h1>
+      <div className="costume-container">
+        {costumeCards}
+      </div>
     </div>
   );
 };

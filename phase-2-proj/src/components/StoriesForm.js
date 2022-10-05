@@ -26,7 +26,7 @@ const StoriesForm = () => {
  
  return (
   <div className="stories-form">
-    <h1>Add Your Own Spooky Story</h1>
+    <h1 className="pageTitle">Add Your Own Spooky Story</h1>
     <form onSubmit={handleSubmit}>
       <label>Title: </label>
       <input type="text" id="title" value={newStoryTitle} onChange={e => setNewStoryTitle(e.target.value)}/>

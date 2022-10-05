@@ -10,9 +10,11 @@ const SpookyStoriesContainer = ({ stories, handleDelete }) => {
   });
 
   return (
-    <div className="spooky-stories-container">
-      <h1>Spooky Stories</h1>
-      {storyCards}
+    <div>
+      <h1 className="pageTitle">Spooky Stories</h1>
+      <div className="spooky-stories-container">
+        {storyCards}
+      </div>
     </div>
   );
 };

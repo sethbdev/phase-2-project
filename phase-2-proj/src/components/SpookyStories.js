@@ -15,7 +15,7 @@ const SpookyStories = ({ id, title, author, image, handleDelete }) => {
       <h2>{title}</h2>
       <h3>By {author}</h3>
       <Link to={`/stories/${id}`}>
-        <img classname="spooky-image" src={image} alt={`${title} by ${author}`} />
+        <img className="spooky-image" src={image} alt={`${title} by ${author}`} />
       </Link>
       <p></p>
       <button className="delete-button" onClick={handleBackendDelete}>

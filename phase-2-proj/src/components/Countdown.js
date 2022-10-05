@@ -45,7 +45,7 @@ const Countdown = () => {
 
   return (
     <div>
-      <h1>Halloween Countdown!</h1>
+      <h1 className="pageTitle">Halloween Countdown!</h1>
       {timerComponents.length ? (
         timerComponents
       ) : (
