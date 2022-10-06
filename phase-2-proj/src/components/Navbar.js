@@ -2,15 +2,22 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  //const [isActive, setIsActive] = useState(true);
   return (
     <div className="navbar">
       <div className="navbar-inner">
-        <NavLink className="navItem navbtn" exact to="/countdown">Countdown</NavLink>
-        <NavLink className="navItem navbtn" exact to="/costumes">Costumes</NavLink>
-        <NavLink className="navItem navbtn" exact to="/stories">Spooky Stories</NavLink>
-        <NavLink className="navItem navbtn" exact to="/newstory">Add A Story</NavLink>
-      </div>  
+        <NavLink to="/">
+          <button className="navbar-button">Countdown</button>
+        </NavLink>
+        <NavLink exact to="/costumes">
+          <button className="navbar-button">Costumes</button>
+        </NavLink>
+        <NavLink exact to="/stories">
+          <button className="navbar-button">Spooky Stories</button>
+        </NavLink>
+        <NavLink exact to="/newstory">
+          <button className="navbar-button">Add A Story</button>
+        </NavLink>
+      </div>
     </div>
   );
 };
