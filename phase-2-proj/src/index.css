@@ -102,19 +102,28 @@ code {
   justify-content: space-evenly;
 }
 
-.navItem {
+.navbar-button {
   color: white;
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 0.5rem;
-  font-weight: bold;
   background: #f55a00;
-  margin: 5px 10px 5px 10px;
-  border-radius: 10px;
+  font-weight: bold;
   display: inline-block;
+  width: relative;
+  height: relative;
+  border: 1;
+  bottom: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  margin: 5px 10px 5px 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #f55a00;
+  padding: 0.5rem 0.8rem;
 }
 
-.pageTitle {
+.pageTitle,
+.redirect-message {
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
@@ -233,8 +242,15 @@ textarea {
   padding: 0.5rem 0.8rem;
 }
 
+.redirect-link {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #f55a00;
+}
+
 .delete-button,
-.read-button {
+.read-button,
+.redirect-button {
   display: inline-block;
   width: relative;
   height: relative;
