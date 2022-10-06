@@ -70,6 +70,10 @@ code {
   border: 1px solid rgba(219, 204, 204, 0.21);
 }
 
+.costume-card :hover {
+  transform: scale(1.01);
+}
+
 .costume-card .costImage {
   height: 225px;
   position: relative;
@@ -145,6 +149,10 @@ code {
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border: 1px solid rgba(219, 204, 204, 0.21);
+}
+
+.spooky-story-card :hover {
+  transform: scale(1.01);
 }
 
 .spooky-story-card .spooky-image {
