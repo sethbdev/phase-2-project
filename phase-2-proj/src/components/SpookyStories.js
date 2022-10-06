@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const SpookyStories = ({ id, title, author, image, handleDelete }) => {
-  
   function handleBackendDelete() {
     fetch(`http://localhost:3000/stories/${id}`, {
       method: "DELETE",
@@ -15,7 +14,11 @@ const SpookyStories = ({ id, title, author, image, handleDelete }) => {
       <h2>{title}</h2>
       <h3>By {author}</h3>
       <Link to={`/stories/${id}`}>
-        <img className="spooky-image" src={image} alt={`${title} by ${author}`} />
+        <img
+          className="spooky-image"
+          src={image}
+          alt={`${title} by ${author}`}
+        />
       </Link>
       <p></p>
       <button className="delete-button" onClick={handleBackendDelete}>

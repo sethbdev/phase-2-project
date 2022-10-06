@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import SpookyStoriesContainer from "./SpookyStoriesContainer";
+import StorySearch from "./StorySearch";
 
 const StoriesPage = () => {
-    
   const [stories, setStories] = useState([]);
+  const [storySearch, setStorySearch] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:3000/stories")
@@ -16,9 +17,21 @@ const StoriesPage = () => {
     setStories(newStories);
   }
 
+  const displayedStories = stories.filter((story) => {
+    return (
+      story.title.toLowerCase().includes(storySearch.toLowerCase()) ||
+      story.author.toLowerCase().includes(storySearch.toLowerCase())
+    );
+  });
+
   return (
     <div>
-      <SpookyStoriesContainer stories={stories} handleDelete={handleDelete} />
+      <h1 className="pageTitle">Spooky Stories</h1>
+      <StorySearch setStorySearch={setStorySearch} />
+      <SpookyStoriesContainer
+        stories={displayedStories}
+        handleDelete={handleDelete}
+      />
     </div>
   );
 };
