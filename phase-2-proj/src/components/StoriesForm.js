@@ -32,7 +32,7 @@ const StoriesForm = () => {
 
   return (
     <div className="stories-form">
-      <h1 className="pageTitle">Add Your Own Spooky Story</h1>
+      <h1 className="pageTitleForm">Add Your Own Spooky Story</h1>
       <form onSubmit={handleSubmit}>
         <label className="form-label">Title: </label>
         <input
