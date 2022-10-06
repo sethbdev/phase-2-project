@@ -86,14 +86,17 @@ code {
   padding: 10px;
   flex: 250px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  
 }
+
 
 .navItem {
   color: white;
   text-decoration: none;
   font-size: 1rem;
   padding: 0.5rem;
+  
 }
 
 .pageTitle {
@@ -121,7 +124,7 @@ code {
   background: rgba(219, 204, 204, 0.45);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(3.5px);
+  backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border: 1px solid rgba(219, 204, 204, 0.21);
 }
@@ -136,4 +139,38 @@ code {
 
 .stories-header {
   text-align: center;
+}
+
+.story-detail-page {
+  margin: 1rem;
+  /*box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
+  border: 1px solid #ccc;*/
+  
+ /* From https://css.glass */
+  background: rgba(219, 204, 204, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(219, 204, 204, 0.21);
+}
+
+.stories-header {
+  text-align: center;
+}
+
+.stories-form {
+  margin: 1rem;
+  /*box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
+  border: 1px solid #ccc;*/
+  
+ /* From https://css.glass */
+  background: rgba(219, 204, 204, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(219, 204, 204, 0.21);
 }
