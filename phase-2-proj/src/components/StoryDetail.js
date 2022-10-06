@@ -20,7 +20,7 @@ const StoryDetail = () => {
       <h1>{title}</h1>
       <h2>{author}</h2>
       <img src={image} alt={title} />
-      <p>{content}</p>
+      <p className="story-detail-content">{content}</p>
     </div>
   );
 };
