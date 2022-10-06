@@ -13,18 +13,17 @@ const SpookyStories = ({ id, title, author, image, handleDelete }) => {
     <div className="spooky-story-card">
       <h2>{title}</h2>
       <h3>By {author}</h3>
-      <Link to={`/stories/${id}`}>
-        <img
-          className="spooky-image"
-          src={image}
-          alt={`${title} by ${author}`}
-        />
-      </Link>
-      <p></p>
-      <button className="delete-button" onClick={handleBackendDelete}>
-        Delete
-      </button>
-      <p></p>
+      <img
+        className="spooky-image"
+        src={image}
+        alt={`${title} by ${author}`}
+      />
+      <div className="story-buttons-div">
+        <Link to={`/stories/${id}`}>
+          <button className="read-button">Read</button>
+        </Link>
+        <button className="delete-button" onClick={handleBackendDelete}>Delete</button>
+      </div>
     </div>
   );
 };
