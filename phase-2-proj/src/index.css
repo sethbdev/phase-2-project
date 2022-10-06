@@ -20,12 +20,14 @@ code {
     monospace;
 }
 
-.countdown-timer {
+.countdown-timer,
+.halloween-day {
   color: black;
   font-weight: bold;
   font-size: 3.5em;
   margin: 10px 10px 10px 10px;
   display: inline-block;
+  font-family: fantasy;
 }
 
 .timer-div {
@@ -37,6 +39,10 @@ code {
   display: inline-block;
   border-radius: 10px;
   padding: 10px;
+}
+
+#costume-header-toggle {
+  cursor: pointer;
 }
 
 .costume-container {
@@ -94,16 +100,18 @@ code {
 
 .navbar {
   text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 10px;
-  width: 50%;
+  width: relative;
   box-sizing: border-box;
-  border: solid #f55a00 3px;
+  border: solid #f55a00 5px;
   padding: 10px;
   flex: 250px;
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-block;
+  justify-content: space-around;
 }
 
 .navbar-button {
@@ -132,6 +140,13 @@ code {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 0.5rem;
+}
+
+.sub-header {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0;
 }
 
 .pageTitleForm {
@@ -177,7 +192,7 @@ code {
 }
 
 .story-detail-page {
-  margin: 1rem;
+  margin: 2rem;
   /*box-shadow: 0 0 7px 0 #ddd;
   border-radius: 5px;
   border: 1px solid #ccc;*/
@@ -189,10 +204,17 @@ code {
   backdrop-filter: blur(8.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border: 1px solid rgba(219, 204, 204, 0.21);
+  margin: 10px 10px 10px 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: inline-block;
+  padding: 10px;
 }
 
-.stories-header {
-  text-align: center;
+.story-detail-content {
+  text-align: justify;
+  line-height: 30px;
+  font-weight: 600;
 }
 
 .stories-form {
@@ -208,6 +230,9 @@ code {
   backdrop-filter: blur(8.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border: 1px solid rgba(219, 204, 204, 0.21);
+  margin-left: 20%;
+  margin-right: 20%;
+  width: relative;
 }
 
 .stories-form label {
@@ -219,12 +244,12 @@ code {
 }
 
 .stories-form input,
-textarea {
+.stories-form textarea {
   display: inline-block;
   width: 25%;
   padding: 0.5rem 0.8rem;
   margin: 10px 0px 10px 0px;
-  border: 0;
+  border: 1;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -284,7 +309,7 @@ textarea {
 
 .search-input {
   border-radius: 10px;
-  border: 0;
+  border: 1;
   width: 15%;
   padding: 0.5rem 0.8rem;
   margin: 0.9vw 0;

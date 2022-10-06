@@ -5,6 +5,7 @@ import CostumeSearch from "./CostumeSearch";
 const CostumesPage = () => {
   const [costumes, setCostumes] = useState([]);
   const [costumeSearch, setCostumeSearch] = useState("");
+  const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     fetch("http://localhost:3000/costumes")
@@ -16,9 +17,22 @@ const CostumesPage = () => {
     costume.title.toLowerCase().includes(costumeSearch.toLowerCase())
   );
 
+  const handleToggle = () => {
+    setToggle((prev) => !prev);
+  };
+
   return (
     <div>
-      <h1 className="pageTitle">Costumes</h1>
+      <h1
+        onClick={handleToggle}
+        id="costume-header-toggle"
+        className="pageTitle"
+      >
+        Top Costumes of 2022*
+      </h1>
+      <h3 className="sub-header">
+        {toggle ? "*...according to the internet" : ""}
+      </h3>
       <CostumeSearch setCostumeSearch={setCostumeSearch} />
       <CostumesContainer costumes={displayedCostumes} />
     </div>
