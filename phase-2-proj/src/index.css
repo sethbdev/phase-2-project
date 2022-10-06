@@ -96,6 +96,7 @@ code {
   text-decoration: none;
   font-size: 1rem;
   padding: 0.5rem;
+  font-weight: bold;
   
 }
 
@@ -104,6 +105,14 @@ code {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 0.5rem;
+}
+
+.pageTitleForm{
+  
+}
+
+.search-label {
+  color: white;
 }
 
 .spooky-stories-container {
