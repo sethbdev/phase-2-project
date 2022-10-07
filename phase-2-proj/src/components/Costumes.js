@@ -10,6 +10,7 @@ const Costumes = ({ costume }) => {
           <div className="costImage">
             <img className="costume-image" src={image} alt={title} />
           </div>
+          <h2 className="title-front">{title}</h2>
         </div>
         <div className="flip-card-back">
           <h2>{title}</h2>

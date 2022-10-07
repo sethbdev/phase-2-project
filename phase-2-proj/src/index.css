@@ -317,6 +317,10 @@ code {
   margin: 0.9vw 0;
 }
 
+.title-front {
+  color: white;
+}
+
 /* Flip Card CSS */
 
 .flip-card {
