@@ -4,18 +4,21 @@
       "id": 1,
       "title": "Sarah Sanderson",
       "image": "https://spirit.scene7.com/is/image/Spirit/07523491-a?$Detail$",
+      "quote": "Hang him on a hook and let me play with him!",
       "price": 129.99
     },
     {
       "id": 2,
       "title": "Gomez Addams",
       "image": "https://www.skycostume.com/media/catalog/product/cache/1/thumbnail/600x600/9df78eab33525d08d6e5fb8d27136e95/g/o/gomez_addam_the_addams_family_outfits_halloween_cosplay_costume-1.jpg",
+      "quote": "I loved her not for the way she danced with my angels, but for the way the sound of her name could silence my demons.",
       "price": 74.99
     },
     {
       "id": 3,
       "title": "Morticia Addams",
       "image": "https://litb-cgis.rightinthebox.com/images/640x640/202206/bps/product/inc/iheegg1655880697402.jpg",
+      "quote": "Hearts are wild creatures; that's why our ribs are cages.",
       "price": 69.99
     },
     {
@@ -28,36 +31,42 @@
       "id": 5,
       "title": "Sally",
       "image": "https://i0.wp.com/disneydiary.com//wp-content/uploads/2013/10/i-zcdWRP9-M.jpg?resize=185%2C400",
+      "quote": "Taking over Christmas is no way to fill the gaping hole you feel inside.",
       "price": 39.48
     },
     {
       "id": 6,
       "title": "Frank the Bunny",
       "image": "https://images.halloweencostumes.com/products/45164/1-2/frank-the-bunny-costume-donnie-darko-.jpg",
+      "quote": "Why are you wearing that stupid man suit?",
       "price": 79.43
     },
     {
       "id": 7,
       "title": "WandaVision",
       "image": "https://www.jacketsthreads.com/image/cache/webp/catalog/wandavision/Wandavision2-550x550h.webp",
+      "quote": "But what is grief, if not love persevering?",
       "price": 120.87
     },
     {
       "id": 8,
       "title": "Tyler Durden",
       "image": "https://famejackets.com/wp-content/uploads/2019/06/Brad-Pitt-Fight-Club-Red-Genuine-Leather-Jacket.jpg",
+      "quote": "This is your life and its ending one moment at a time.",
       "price": 499.69
     },
     {
       "id": 9,
       "title": "Harley Quinn",
       "image": "https://i.etsystatic.com/23339379/r/il/2b4984/2680886437/il_794xN.2680886437_9hyi.jpg",
+      "quote": "Sweetie, get mommy's bazooka.",
       "price": 49.99
     },
     {
       "id": 10,
       "title": "Grinch",
       "image": "https://i.ebayimg.com/images/g/H9AAAOSwYSFdw7Zc/s-l500.jpg",
+      "quote": "I’m all toasty inside.",
       "price": 59.99
     }
   ],
