@@ -21,6 +21,8 @@ const CostumesPage = () => {
     setToggle((prev) => !prev);
   };
 
+  let year = new Date().getFullYear();
+
   return (
     <div>
       <h1
@@ -28,7 +30,7 @@ const CostumesPage = () => {
         id="costume-header-toggle"
         className="pageTitle"
       >
-        Top Costumes of 2022*
+        Top Costumes of {year}*
       </h1>
       <h3 className="sub-header">
         {toggle ? "*...according to the internet" : ""}
